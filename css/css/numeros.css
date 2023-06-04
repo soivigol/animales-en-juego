@@ -1,0 +1,173 @@
+#pagPaal, #pagAcierto, #pagFallo,#pagNivel,#pagFin{
+	display: none;
+	max-width: 650px;
+}
+
+body{
+    background-image: url(../images/fondoNumeros.png);
+}
+
+#pagAcierto img, #pagFallo img{
+	display: block;
+	width: 80%;
+	margin: 20px auto 0;
+	max-width: 300px;
+}
+
+#contRecursos{
+	display: none;
+}
+
+h1{
+    text-align: center;
+	margin-top: 30px;
+}
+
+.encabezado{
+    display: block !important;
+    width: 100% !important;
+    padding-top: 20px !important;
+    background: rgba(255,255,255,0.4);
+	position: relative;
+}
+
+
+#reiniciarEsto{
+    float: right;
+    margin-right: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+#contPuntuacion{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+}
+
+#contPuntuacion p{
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    float:right;
+    background-image: url(../images/fondoBotones.png);
+    border: 3px outset #8b4513;
+}
+
+#botonAtras{
+    display: inline-block;
+    float:left;
+    background-image: url(../images/fondoBotones.png);
+    border: 3px outset #8b4513;
+    margin: 5px 0 5px 10px;
+}
+
+#botonAtras img{
+    width: 40px;
+}
+
+#contAnimales{
+    position: fixed;
+    top: 55px;
+    bottom: 60px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+#contNumeros{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    height: 60px;
+}
+
+#contNumeros button{
+    height: 55px;
+    width: 45px;
+    font-size: 20px;
+    text-align: center;
+    background: url(../images/fondoBotones.png);
+    border: 3px outset #8b4513;
+    margin: 0 10px;
+}
+
+.item div{
+    display: inline-block;
+}
+
+.item div img{
+    display: inline-block;
+    width: 85%;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.numeros9 div{
+    width: 33%;
+}
+
+.numeros6 div{
+    width: 50%;
+}
+
+.numeros12 div{
+    width: 25%;
+}
+
+.numeros9 div img{
+    max-width: 70px;
+	margin: 5px auto;
+}
+
+.numeros6 div img{
+    max-width: 100px;
+}
+
+.numeros12 div img{
+    max-width: 70px;
+	margin: 5px auto;
+}
+
+.altavoz{
+	height: 30px;position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+
+@media (orientation: landscape){
+    .numeros9 div{
+        width: 16%;
+    }
+    
+    .numeros6 div{
+        width: 33%;
+    }
+    .numeros12 div{
+        width: 12%;
+    }
+
+    .numeros9 div img{
+        max-width: 70px;
+		margin: 5px auto;
+    }
+
+    .numeros6 div img{
+        max-width: 80px;
+    }
+
+    .numeros12 div img{
+        max-width: 60px;
+		margin: 5px auto;
+    }
+}

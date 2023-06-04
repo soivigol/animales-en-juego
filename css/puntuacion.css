@@ -1,0 +1,36 @@
+body{
+    background-image: url(../images/fondoPant.png);
+}
+
+.nombre{
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+}
+
+.puntuacion, .nivel{
+    width: 22%;
+    display: inline-block;
+    text-align: center; 
+    font-size: 13px;
+}
+
+.restaurar,.superado,.bloqueo{
+    float: right;
+    font-size: 10px;
+    margin: 5px;
+}
+
+.bloqueo{
+    height: 12px;
+}
+
+.limpiador{
+    clear: both;
+}
+
+#contPuntNivel div{
+    background: rgba(255,255,255,0.4);
+    border: 1px solid black;
+}

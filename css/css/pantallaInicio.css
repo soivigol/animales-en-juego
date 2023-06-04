@@ -1,0 +1,25 @@
+body{
+	background: green;
+	background-image: url(../images/fondoPant.png);
+}
+
+a{
+	display: block;
+	width: 70%;
+	min-width: 250px;
+	margin: 15px auto;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 20px;
+	border: 3px outset #8b4513;
+	background: yellow;
+	background-image: url(../images/fondoBotones.png);
+	color: black;
+	text-decoration: none;
+}
+
+#contPuntuacion{
+	margin-top: 25px;
+	text-align: center;
+	font-size: 22px;
+}
