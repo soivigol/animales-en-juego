@@ -1,0 +1,2 @@
+Una de las primeras cosas que hice en programación allá por el 2012. Un juego para niños pequeños. Realmente lo hice para mi hija que era poco más que un bebé y lo disfruto mucho. 
+Un buen ejemplo para ver mis inicios y sobre todo, lo mucho que lo mejoraría a día de hoy!!
